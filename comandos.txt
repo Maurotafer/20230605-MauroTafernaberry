@@ -1,0 +1,64 @@
+1  git init
+    2  git config --global user.name "Maurotafer"
+    3  git config --global user.email "maurotafernaberry@gmail.com"
+    4  cd ..
+    5  mkdir 20230605-MauroTafernaberry
+    6  mkdir 20230605-MauroTafernaberry
+    7  cd 20230605-MauroTafernaberry
+    8  git init
+    9  git clone https://github.com/Maurotafer/20230605-MauroTafernaberry
+   10  touch comandos.txt main.js index.html
+   11  git add comandos.txt main.js index.html
+   12  git status
+   13  git commit -m "commit 01 de MauroTafernaberry"
+   14  git status
+   15  git remote add origin https://github.com/Maurotafer/20230605-MauroTafernaberry
+   16  git status
+   17  git push -u origin master
+   18  git branch feature
+   19  git checkout feature
+   20  mkdir Hardware Software SeguridadInformatica
+   21  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+   22  git add .
+   23  git commit -m
+   24  git add Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+   25  git status
+   26  git commit -m Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+   27  git status
+   28  git commit -m Hardware/resume.txt
+   1  git init
+    2  git config --global user.name "Maurotafer"
+    3  git config --global user.email "maurotafernaberry@gmail.com"
+    4  cd ..
+    5  mkdir 20230605-MauroTafernaberry
+    6  mkdir 20230605-MauroTafernaberry
+    7  cd 20230605-MauroTafernaberry
+    8  git init
+    9  git clone https://github.com/Maurotafer/20230605-MauroTafernaberry
+   10  touch comandos.txt main.js index.html
+   11  git add comandos.txt main.js index.html
+   12  git status
+   13  git commit -m "commit 01 de MauroTafernaberry"
+   14  git status
+   15  git remote add origin https://github.com/Maurotafer/20230605-MauroTafernaberry
+   16  git status
+   17  git push -u origin master
+   18  git branch feature
+   19  git checkout feature
+   20  mkdir Hardware Software SeguridadInformatica
+   21  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+   22  git add .
+   23  git commit -m
+   24  git add Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+   25  git status
+   26  git commit -m Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+   27  git status
+   28  git commit -m Hardware/resume.txt
+   29  git status
+   30  git push origin feature
+   31  git checkout master
+   32  git mv main.js resumenHardware.txt
+   33  git mv index.html resumenSoftware.txt
+   34  nano resumenSoftware.txt
+   35  nano resumenHardware.txt
+   36  history
